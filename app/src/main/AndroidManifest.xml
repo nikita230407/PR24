@@ -16,7 +16,7 @@
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.PR24-pr-23.103-fn">
-            <intent-filter>
+            <intent-filter> 
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
