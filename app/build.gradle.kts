@@ -5,12 +5,12 @@ plugins {
 
 android {
 
-    namespace = "com.example.pr24"
+    namespace = "com.example.PR24-pr-23.103-fn"
 
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.pr24"
+        applicationId = "com.example.PR24-pr-23.103-fn"
         minSdk = 36
         targetSdk = 36
 
