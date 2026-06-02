@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "pr24"
+rootProject.name = "PR24-pr-23.103-fn"
 include(":app")
  
