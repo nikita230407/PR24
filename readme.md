@@ -66,13 +66,13 @@ ProductScreen -> BasketScreen
 Основной код приложения находится в папке:
 
 ```text
-app/src/main/java/com/example/pr24
+app/src/main/java/com/example/PR24-pr-23.103-fn
 ```
 
 Важные части проекта:
 
 ```text
-com.example.pr24
+com.example.PR24-pr-23.103-fn
     MainActivity.kt
     navigation
         AppNavGraph.kt
@@ -96,7 +96,7 @@ com.example.pr24
 Тесты находятся в папке:
 
 ```text
-app/src/androidTest/java/com/example/pr24
+app/src/androidTest/java/com/example/PR24-pr-23.103-fn
 ```
 
 Там есть две группы тестов:
@@ -118,7 +118,7 @@ ux
 Файл:
 
 ```text
-app/src/main/java/com/example/pr24/MainActivity.kt
+app/src/main/java/com/example/PR24-pr-23.103-fn/MainActivity.kt
 ```
 
 MainActivity является точкой входа в приложение. В ней вызывается:
@@ -150,8 +150,8 @@ setContent {
 Навигация находится в файлах:
 
 ```text
-app/src/main/java/com/example/pr24/navigation/Routes.kt
-app/src/main/java/com/example/pr24/navigation/AppNavGraph.kt
+app/src/main/java/com/example/PR24-pr-23.103-fn/navigation/Routes.kt
+app/src/main/java/com/example/PR24-pr-23.103-fn/navigation/AppNavGraph.kt
 ```
 
 В Routes.kt хранятся названия маршрутов:
@@ -240,7 +240,7 @@ onProductClick
 Модель товара находится в файле:
 
 ```text
-app/src/main/java/com/example/pr24/ui/model/Product.kt
+app/src/main/java/com/example/PR24-pr-23.103-fn/ui/model/Product.kt
 ```
 
 Основной класс:
@@ -293,7 +293,7 @@ object ProductCatalog {
 Корзина реализована в файле:
 
 ```text
-app/src/main/java/com/example/pr24/ui/model/CartManager.kt
+app/src/main/java/com/example/PR24-pr-23.103-fn/ui/model/CartManager.kt
 ```
 
 CartManager сделан как object:
@@ -398,7 +398,7 @@ fun totalPrice(): Int {
 Файл:
 
 ```text
-app/src/main/java/com/example/pr24/ui/screens/CatalogScreen.kt
+app/src/main/java/com/example/PR24-pr-23.103-fn/ui/screens/CatalogScreen.kt
 ```
 
 CatalogScreen показывает:
@@ -483,7 +483,7 @@ Button(
 Файл:
 
 ```text
-app/src/main/java/com/example/pr24/ui/screens/ProductScreen.kt
+app/src/main/java/com/example/PR24-pr-23.103-fn/ui/screens/ProductScreen.kt
 ```
 
 ProductScreen теперь является экраном подробной информации о товаре.
@@ -563,7 +563,7 @@ Button(
 Файл:
 
 ```text
-app/src/main/java/com/example/pr24/ui/screens/BasketScreen.kt
+app/src/main/java/com/example/PR24-pr-23.103-fn/ui/screens/BasketScreen.kt
 ```
 
 BasketScreen показывает:
@@ -706,7 +706,7 @@ if (orderMessage.isNotEmpty()) {
 Файл:
 
 ```text
-app/src/main/java/com/example/pr24/ui/screens/MapScreen.kt
+app/src/main/java/com/example/PR24-pr-23.103-fn/ui/screens/MapScreen.kt
 ```
 
 MapScreen показывает изображение карты и кнопку назад.
